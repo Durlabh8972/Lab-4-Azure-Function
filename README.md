@@ -70,12 +70,24 @@ Hello, world from Azure Function!
 
   <img width="959" height="599" alt="image" src="https://github.com/user-attachments/assets/6d0cdb46-357d-4679-8107-f310e3278e63" />
 
+  <img width="956" height="574" alt="image" src="https://github.com/user-attachments/assets/019819ef-a12f-41cb-95e7-89711d9513f4" />
 
 - Logs for Build, Test, and Deploy
+- 
+  <img width="959" height="569" alt="image" src="https://github.com/user-attachments/assets/08bf11fe-5bf6-4240-a0f2-c1cc84f0392f" />
+
+  <img width="959" height="572" alt="image" src="https://github.com/user-attachments/assets/95d6423b-f077-470b-af0a-f0f6a364ca8f" />
+
+
 - Function running in Azure
+
+<img width="956" height="569" alt="image" src="https://github.com/user-attachments/assets/d29cb370-46e5-4f0b-a03d-80cd2fe188aa" />
+
+<img width="959" height="569" alt="image" src="https://github.com/user-attachments/assets/137156d1-4c9b-4520-b99f-cf43b72fc647" />
+  
 - Output in browser or Postman
 
 ---
 
 **Author**: Durlabh Tilavat  
-**Course**: INFO8985 - Cloud DevOps Practices  
+**Course**: CI/CD
