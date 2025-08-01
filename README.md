@@ -65,7 +65,9 @@ Hello, world from Azure Function!
 
 ## 📸 Screenshots to Include
 
-- Azure Pipeline (All 3 stages)
+- Azure Pipeline
+- <img width="953" height="597" alt="image" src="https://github.com/user-attachments/assets/4f40466e-5f93-483b-9408-18bf0b1cc925" />
+
 - Logs for Build, Test, and Deploy
 - Function running in Azure
 - Output in browser or Postman
