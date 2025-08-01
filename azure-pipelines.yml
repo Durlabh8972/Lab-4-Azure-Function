@@ -41,5 +41,5 @@ stages:
       inputs:
         azureSubscription: 'REPLACE_WITH_YOUR_SERVICE_CONNECTION'
         appType: functionAppLinux
-        appName: 'REPLACE_WITH_YOUR_FUNCTION_APP_NAME'
+        appName: 'azurefunction1'
         package: '$(System.DefaultWorkingDirectory)/HelloWorldFunction/bin/Release/net6.0/publish'
