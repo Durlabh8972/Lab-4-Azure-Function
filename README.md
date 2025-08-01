@@ -66,7 +66,10 @@ Hello, world from Azure Function!
 ## 📸 Screenshots to Include
 
 - Azure Pipeline
-- <img width="953" height="597" alt="image" src="https://github.com/user-attachments/assets/4f40466e-5f93-483b-9408-18bf0b1cc925" />
+  <img width="953" height="597" alt="image" src="https://github.com/user-attachments/assets/4f40466e-5f93-483b-9408-18bf0b1cc925" />
+
+  <img width="959" height="599" alt="image" src="https://github.com/user-attachments/assets/6d0cdb46-357d-4679-8107-f310e3278e63" />
+
 
 - Logs for Build, Test, and Deploy
 - Function running in Azure
