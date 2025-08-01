@@ -84,8 +84,6 @@ Hello, world from Azure Function!
 <img width="956" height="569" alt="image" src="https://github.com/user-attachments/assets/d29cb370-46e5-4f0b-a03d-80cd2fe188aa" />
 
 <img width="959" height="569" alt="image" src="https://github.com/user-attachments/assets/137156d1-4c9b-4520-b99f-cf43b72fc647" />
-  
-- Output in browser or Postman
 
 ---
 
