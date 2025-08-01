@@ -1,0 +1,45 @@
+
+trigger:
+- main
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  buildConfiguration: 'Release'
+
+stages:
+- stage: Build
+  displayName: 'Build Stage'
+  jobs:
+  - job: Build
+    steps:
+    - task: UseDotNet@2
+      inputs:
+        packageType: 'sdk'
+        version: '6.x'
+    - script: |
+        dotnet restore ./HelloWorldFunction/HelloWorldFunction.csproj
+        dotnet build ./HelloWorldFunction/HelloWorldFunction.csproj --configuration $(buildConfiguration)
+      displayName: 'Build the Azure Function'
+
+- stage: Test
+  displayName: 'Test Stage'
+  jobs:
+  - job: Test
+    steps:
+    - script: |
+        dotnet test ./HelloWorldFunction.Tests/HelloWorldFunction.Tests.csproj --configuration $(buildConfiguration)
+      displayName: 'Run Unit Tests'
+
+- stage: Deploy
+  displayName: 'Deploy Stage'
+  jobs:
+  - job: Deploy
+    steps:
+    - task: AzureFunctionApp@1
+      inputs:
+        azureSubscription: 'REPLACE_WITH_YOUR_SERVICE_CONNECTION'
+        appType: functionAppLinux
+        appName: 'REPLACE_WITH_YOUR_FUNCTION_APP_NAME'
+        package: '$(System.DefaultWorkingDirectory)/HelloWorldFunction/bin/Release/net6.0/publish'
