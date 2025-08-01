@@ -39,7 +39,7 @@ stages:
     steps:
     - task: AzureFunctionApp@1
       inputs:
-        azureSubscription: 'REPLACE_WITH_YOUR_SERVICE_CONNECTION'
+        azureSubscription: 'Azure for Students'
         appType: functionAppLinux
         appName: 'azurefunction1'
         package: '$(System.DefaultWorkingDirectory)/HelloWorldFunction/bin/Release/net6.0/publish'
